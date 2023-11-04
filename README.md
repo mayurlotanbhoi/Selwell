@@ -21,7 +21,7 @@
 
 ## API Endpoints
 
-### Filter by Department : like HR, Developer etc
+### Filter by Department : like HR, IT etc
 
 - **Endpoint:** `/department`
 - **Method:** `POST`
@@ -34,7 +34,7 @@
 - **Endpoint:** `/salary`
 - **Method:** `POST`
 - **Request Body:**
-  - `method` (number, required): Sort by salary : Ascending 1 &&  descending -1.
+  - `method` (number, required): Sort by salary : Ascending 1 & descending -1.
 - **Response:** Returns a list of all data in sorted format.
 
 ### Search by name : like first name, last name
@@ -42,8 +42,8 @@
 - **Endpoint:** `/name`
 - **Method:** `POST`
 - **Request Body:**
-  - `method` (method, required): Search Employee base on last_name or first_name
-  - `name` (name, required): Search book Emaplyee base on name
+  - `method` (method, required): Search Employee base on last_name or first_name use in method 
+  - `name` (name, required): Search  Employee base on name
 - **Response:** Returns the details of the Emaplyee.
 
 ### Get All Employee
